@@ -1,7 +1,7 @@
-package org.jetbrains.plugins.template.services
+package com.github.verauvads.mvisetup.services
 
 import com.intellij.openapi.project.Project
-import org.jetbrains.plugins.template.MyBundle
+import com.github.verauvads.mvisetup.MyBundle
 
 class MyProjectService(project: Project) {
 
