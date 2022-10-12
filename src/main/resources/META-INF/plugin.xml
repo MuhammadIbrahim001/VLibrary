@@ -11,6 +11,10 @@
         <projectService serviceImplementation="com.github.verauvads.mvisetup.services.MyProjectService"/>
     </extensions>
 
+    <extensions defaultExtensionNs="com.android">
+        <tools.idea.wizard.template.wizardTemplateProvider implementation="com.github.verauvads.mvisetup.recipies.CustomWizardTemplateProvider" />
+    </extensions>
+
     <applicationListeners>
         <listener class="com.github.verauvads.mvisetup.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
